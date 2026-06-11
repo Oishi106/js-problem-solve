@@ -8,13 +8,13 @@ Hint: Use a while loop with slice().
 
 */
 
-
+                                            
 function chunkArray(arr, size) {
     let result = [];
     let i = 0;
 
     while (i < arr.length) {
-        result.push(arr.slice(i, i + size));
+        result.push(arr.slice(i, i + size));                              
         i += size;
     }
 
