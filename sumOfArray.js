@@ -7,11 +7,11 @@ Hint: Use reduce() or a for loop.
 
 */
 
-function sumArray(arr) {
+function sumArray(arr) {                             
     let sum = 0;
 
     for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
+        sum += arr[i];                                            
     }
 
     return sum;
