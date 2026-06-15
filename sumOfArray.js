@@ -14,7 +14,7 @@ function sumArray(arr) {
         sum += arr[i];                                            
     }
 
-    return sum;
+    return sum;                   
 }
 
 // Example
