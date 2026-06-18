@@ -7,7 +7,7 @@ Hint: Use the modulus (%) operator.
 */
 
 function isEven(n) {
-    return n % 2 === 0;
+    return n % 2 === 0;                           
 }
 
 console.log(isEven(4)); // true
