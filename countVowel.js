@@ -12,7 +12,8 @@ Hint: Use a loop or match() with a regular expression.
 function countVowels(str) {
     let matches = str.match(/[aeiou]/gi);
     return matches ? matches.length : 0;
-}
+}                     
+                 
 
 // Example Usage
 console.log(countVowels("hello"));      // 2
