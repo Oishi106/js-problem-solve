@@ -8,13 +8,13 @@ Hint: Loop through and track the largest value found.
 
 */
 
-function findMax(arr) {
+function findMax(arr) {                               
     let max = arr[0]; // assume first element is the largest
-
+            
     for (let i = 1; i < arr.length; i++) {
         if (arr[i] > max) {
             max = arr[i];
-        }
+        }             
     }
 
     return max;
